@@ -1,0 +1,9 @@
+==========================
+django-twilio-example-apps
+==========================
+
+Several example twilio apps built using django-twilio
+(https://github.com/rdegges/django-twilio).
+
+This project was built as part of my LA Django presentation on telephony and
+Django.
