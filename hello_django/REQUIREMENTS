@@ -1,0 +1,2 @@
+Django
+git+https://github.com/rdegges/django-twilio.git#egg=django_twilio
