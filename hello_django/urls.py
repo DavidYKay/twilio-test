@@ -11,7 +11,10 @@ the meetup! Goodbye.
 
 urlpatterns = patterns('',
     # Examples:
-    url(r'^$', 'django_twilio.views.say', {'text': message}),
+    #url(r'^$', 'pricing.views.received_sms', {'text': message}),
+    #url(r'^$', 'django_twilio.views.say', {'text': message}),
+    url(r'^$', 'django_twilio.views.sms', {'text': message}),
+
     # url(r'^hello_django/', include('hello_django.foo.urls')),
 
     # Uncomment the admin/doc line below to enable admin documentation:
