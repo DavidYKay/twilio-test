@@ -21,8 +21,8 @@ DATABASES = {
 }
 
 # django-twilio settings.
-TWILIO_ACCOUNT_SID = 'xxx'
-TWILIO_AUTH_TOKEN = 'xxx'
+TWILIO_ACCOUNT_SID = 'AC407395e52bd14fc9afcbe4f00dd22596'
+TWILIO_AUTH_TOKEN = '4be0ad35d6459819aae888dc26a28013'
 
 # Local time zone for this installation. Choices can be found here:
 # http://en.wikipedia.org/wiki/List_of_tz_zones_by_name
