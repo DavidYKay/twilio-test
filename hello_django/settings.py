@@ -114,6 +114,7 @@ TEMPLATE_DIRS = (
 
 INSTALLED_APPS = (
     'pricing',
+    #'hello_django.pricing',
 
     'django.contrib.auth',
     'django.contrib.contenttypes',

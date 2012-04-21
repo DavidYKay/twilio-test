@@ -11,9 +11,13 @@ the meetup! Goodbye.
 
 urlpatterns = patterns('',
     # Examples:
-    #url(r'^$', 'pricing.views.received_sms', {'text': message}),
+    #url(r'^$', 'pricing.views.hello_world'),
+    url(r'^$', 'pricing.views.received_sms', {'text': message}),
+
+    #url(r'^users/$', 'pricing.views.show_users'),
+
     #url(r'^$', 'django_twilio.views.say', {'text': message}),
-    url(r'^$', 'django_twilio.views.sms', {'text': message}),
+    #url(r'^$', 'django_twilio.views.sms', {'message': message}),
 
     # url(r'^hello_django/', include('hello_django.foo.urls')),
 
